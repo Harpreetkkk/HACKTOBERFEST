@@ -3,8 +3,12 @@ class hello:
         self.name=name
     def func(self):
         return (self.name)
+    def greet (self):
+        return 'hello '+self.name    
 class child(hello):
     def __init__(self,name):
         self.name=name
-a=child("hello")
-print(a.func())
+
+ch=input()
+a=child(ch)
+print(a.func() , a.greet())
