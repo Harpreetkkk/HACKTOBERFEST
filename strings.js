@@ -1,0 +1,11 @@
+let a='Aeroplane';
+console.log(a[0]);
+console.log(a.indexOf('plane'));
+console.log(a.charAt(a.indexOf('a')));
+console.log(a.split('o',2));
+console.log(a.substr(0,4));
+console.log(a.substring(0,5));
+let b='places';
+console.log(a.concat(b));
+console.log(a.toLowerCase());
+console.log(a.toUpperCase());
